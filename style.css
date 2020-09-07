@@ -46,15 +46,16 @@ h1 {
     z-index: -1;
     opacity: 0.2;
     position: absolute;
-    bottom: 20px;
+    top: 12px;
     left: 50%;
-    transform: translateX(-50);
+    transform: translateX(-50%);
 }
 
 .countdown {
     /* display: flex; */
     display: none;
     transform: scale(2.5);
+
 }
 
 .time {
