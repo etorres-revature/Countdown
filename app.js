@@ -25,4 +25,4 @@ function updateCountdown() {
   console.log(s);
 }
 
-updateCountdown();
+setInterval(updateCountdown(), 1000);
